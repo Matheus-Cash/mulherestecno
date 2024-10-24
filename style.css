@@ -61,13 +61,3 @@ button {
     width: 150px; 
     border-radius: 8px; 
 }
-.imagem-container {
-    display: flex; 
-    justify-content: center; 
-    gap: 20px; 
-}
-
-.imagem-container img {
-    width: 300px; 
-    height: auto; 
-}
