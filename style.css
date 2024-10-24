@@ -1,62 +1,58 @@
-body { 
-    background-color: whitesmoke ;
+body {  
+    background-color: whitesmoke; /* Cor de fundo do corpo */
 }
 
 .cabecalho {
-    background-color: ##ff6600; 
-    color: ##ffffff;
-    padding: 30px 20px; 
-    font-size: 25px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    background-color: #ff6600; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto */
+    padding: 30px 20px; /* Espaçamento interno */
+    font-size: 25px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    display: flex; /* Usando flexbox */
+    justify-content: center; /* Centraliza o conteúdo do cabeçalho */
 }
 
-
 #titulo {
-    font-size: 30px;
-    text-align: center;
+    font-size: 30px; /* Tamanho do título */
+    text-align: center; /* Alinhamento do título */
 }
 
 p {
-    
+    /* Você pode adicionar estilos para parágrafos aqui, se necessário */
 }
 
 .imgcentro {
-    display: block;
-    margin: auto;
-    width: 300px;
+    display: block; /* Centraliza a imagem */
+    margin: auto; /* Margem automática */
+    width: 300px; /* Largura da imagem */
 }
 
-nav{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: ;
+nav {
+    padding-top: 0; /* Padding superior */
+    padding-bottom: 0; /* Padding inferior */
+    font-size: 18px; /* Tamanho da fonte do nav */
 }
 
-li{
-    text-align: ;
-    display: inline-block;
-    /* padding: 0px 50px 0px 10px; */
-    font-size: ;
-    font-family: Verdana ;
-
+li {
+    display: inline-block; /* Exibe itens da lista em linha */
+    font-size: 20px; /* Tamanho da fonte dos itens da lista */
+    font-family: Verdana; /* Fonte dos itens da lista */
+    margin-right: 20px; /* Espaçamento entre os itens */
 }
 
-/*onde vai os codigos abaixo: li ou li a?????? */
-    text-decoration: none;
-    color: ;
-
-
-li a{
-    font-size: 50px;
-
+li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #000; /* Cor do texto dos links (preto, por exemplo) */
 }
 
-button{
-    font-size: 16px;
-    color: blue;
-    padding: 2px;
-    width: 150px;
-    border-radius: 8px;
+li a:hover {
+    color: #ff9900; /* Cor do texto ao passar o mouse (opcional) */
+}
+
+button {
+    font-size: 16px; /* Tamanho da fonte do botão */
+    color: blue; /* Cor do texto do botão */
+    padding: 2px; /* Espaçamento interno do botão */
+    width: 150px; /* Largura do botão */
+    border-radius: 8px; /* Bordas arredondadas */
 }
