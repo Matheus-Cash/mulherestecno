@@ -8,6 +8,7 @@ body {
     background-color: #f7f7f7;
     /* Cor de fundo cinza claro */
     color: #333;
+}
 
     /* Cor do texto */
     /* Estilo do cabeçalho */
@@ -19,10 +20,9 @@ body {
         padding: 20px;
         /* Espaçamento interno */
         text-align: center;
+    }
 
-        /* Central
-
-
+        /* Centra
 /* Estilo do cabeçalho */
         h1 {
             text-align: center;
