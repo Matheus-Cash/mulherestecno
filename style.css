@@ -59,5 +59,6 @@ button {
     color: blue; 
     padding: 2px; 
     width: 150px; 
-    border-radius: 8px; 
+    border-radius: 8px;
+     border: #ff6600; 
 }
