@@ -60,5 +60,6 @@ button {
     padding: 2px; 
     width: 150px; 
     border-radius: 8px;
-     border: #ff6600; 
+    border-radius: 0%;
+    b
 }
