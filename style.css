@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     height: 2000px; /* Para simular rolagem */
-    background: linear-gradient(135deg, #f0f0f0 0%, #e1e1e1 100%); /* Gradiente suave */
+    background: azure
     color: #333; /* Cor do texto */
 }
 
