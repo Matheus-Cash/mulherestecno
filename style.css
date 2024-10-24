@@ -1,58 +1,58 @@
 body {  
-    background-color: whitesmoke; /* Cor de fundo do corpo */
+    background-color: whitesmoke; 
 }
 
 .cabecalho {
-    background-color: #ff6600; /* Cor de fundo do cabeçalho */
-    color: #ffffff; /* Cor do texto */
-    padding: 30px 20px; /* Espaçamento interno */
-    font-size: 25px; /* Tamanho da fonte */
-    text-align: center; /* Alinhamento do texto */
-    display: flex; /* Usando flexbox */
-    justify-content: center; /* Centraliza o conteúdo do cabeçalho */
+    background-color: #ff6600;
+    color: #ffffff; 
+    padding: 30px 20px; 
+    font-size: 25px; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
 }
 
 #titulo {
-    font-size: 30px; /* Tamanho do título */
-    text-align: center; /* Alinhamento do título */
+    font-size: 30px; 
+    text-align: center; 
 }
 
 p {
-    /* Você pode adicionar estilos para parágrafos aqui, se necessário */
+
 }
 
 .imgcentro {
-    display: block; /* Centraliza a imagem */
-    margin: auto; /* Margem automática */
-    width: 300px; /* Largura da imagem */
+    display: block; 
+    margin: auto; 
+    width: 300px; 
 }
 
 nav {
-    padding-top: 0; /* Padding superior */
-    padding-bottom: 0; /* Padding inferior */
-    font-size: 18px; /* Tamanho da fonte do nav */
+    padding-top: 0; 
+    padding-bottom: 0; 
+    font-size: 18px; 
 }
 
 li {
-    display: inline-block; /* Exibe itens da lista em linha */
-    font-size: 20px; /* Tamanho da fonte dos itens da lista */
-    font-family: Verdana; /* Fonte dos itens da lista */
-    margin-right: 20px; /* Espaçamento entre os itens */
+    display: inline-block; 
+    font-size: 20px; 
+    font-family: Verdana; 
+    margin-right: 20px; 
 }
 
 li a {
-    text-decoration: none; /* Remove o sublinhado dos links */
-    color: #000; /* Cor do texto dos links (preto, por exemplo) */
+    text-decoration: none;
+    color: #000; 
 }
 
 li a:hover {
-    color: #ff9900; /* Cor do texto ao passar o mouse (opcional) */
+    color: #ff9900; 
 }
 
 button {
-    font-size: 16px; /* Tamanho da fonte do botão */
-    color: blue; /* Cor do texto do botão */
-    padding: 2px; /* Espaçamento interno do botão */
-    width: 150px; /* Largura do botão */
-    border-radius: 8px; /* Bordas arredondadas */
+    font-size: 16px; 
+    color: blue; 
+    padding: 2px; 
+    width: 150px; 
+    border-radius: 8px; 
 }
