@@ -196,49 +196,49 @@ li a:hover {
         /* Garante que a imagem não ultrapasse a largura do contêiner */
         height: auto;
         /* Mantém a proporção da imagem */
+
+
+        color: #ff6600;
+        /* Cor de fundo do botão */
+        color: #ffffff;
+        /* Cor do texto do botão */
+        padding: 15px 30px;
+        /* Espaçamento interno */
+        font-size: 18px;
+        /* Tamanho da fonte do botão */
+        border: none;
+        /* Remove bordas padrão */
+        border-radius: 5px;
+        /* Bordas arredondadas */
+        cursor: pointer;
+        /* Indica que é clicável */
+        transition: background-color 0.3s ease,
+            transform 0.2s ease;
+        /* Transições suaves */
+        margin-top: 20px;
+        /* Espaçamento acima do botão */
     }
 
-    color: #ff6600;
-    /* Cor de fundo do botão */
-    color: #ffffff;
-    /* Cor do texto do botão */
-    padding: 15px 30px;
-    /* Espaçamento interno */
-    font-size: 18px;
-    /* Tamanho da fonte do botão */
-    border: none;
-    /* Remove bordas padrão */
-    border-radius: 5px;
-    /* Bordas arredondadas */
-    cursor: pointer;
-    /* Indica que é clicável */
-    transition: background-color 0.3s ease,
-    transform 0.2s ease;
-    /* Transições suaves */
-    margin-top: 20px;
-    /* Espaçamento acima do botão */
-}
+    .botao:hover {
+        background-color: #e65c00;
+        /* Cor de fundo ao passar o mouse */
+        transform: scale(1.05);
+        /* Aumenta o botão ligeiramente */
+    }
 
-.botao:hover {
-    background-color: #e65c00;
-    /* Cor de fundo ao passar o mouse */
-    transform: scale(1.05);
-    /* Aumenta o botão ligeiramente */
-}
+    .botao:active {
+        transform: scale(0.95);
+        /* Diminui o botão ao clicar */
+    }
 
-.botao:active {
-    transform: scale(0.95);
-    /* Diminui o botão ao clicar */
-}
-
-/* Estilo para as imagens centradas */
-.imgcentro {
-    display: block;
-    /* Para centralizar a imagem */
-    margin: 20px auto;
-    /* Margem em cima e embaixo */
-    max-width: 100%;
-    /* Garante que a imagem não ultrapasse a largura do contêiner */
-    height: auto;
-    /* Mantém a proporção da imagem */
-}
+    /* Estilo para as imagens centradas */
+    .imgcentro {
+        display: block;
+        /* Para centralizar a imagem */
+        margin: 20px auto;
+        /* Margem em cima e embaixo */
+        max-width: 100%;
+        /* Garante que a imagem não ultrapasse a largura do contêiner */
+        height: auto;
+        /* Mantém a proporção da imagem */
+    }
