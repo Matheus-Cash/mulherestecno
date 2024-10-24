@@ -8,237 +8,359 @@ body {
     background-color: #f7f7f7;
     /* Cor de fundo cinza claro */
     color: #333;
+
     /* Cor do texto */
-}
+    /* Estilo do cabeçalho */
+    heade {
+        background-color: #2c3e50;
+        /* Cor de fundo do cabeçalho (azul escuro) */
+        color: #ffffff;
+        /* Cor do texto no cabeçalho */
+        padding: 20px;
+        /* Espaçamento interno */
+        text-align: center;
+
+        /* Central
+
 
 /* Estilo do cabeçalho */
-h1 {
-    text-align: center;
-    margin-top: 50px;
-    color: #2c3e50;
-    /* Azul escuro */
-    font-size: 2.5em;
-    /* Tamanho da fonte */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    /* Sombra do texto */
-}
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #2c3e50;
+            /* Azul escuro */
+            font-size: 2.5em;
+            /* Tamanho da fonte */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            /* Sombra do texto */
+        }
 
-/* Estilo do parágrafo */
-p {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 1.2em;
-    /* Tamanho da fonte do parágrafo */
-    color: #555;
-    /* Cor do texto */
-}
+        /* Estilo do parágrafo */
+        p {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.2em;
+            /* Tamanho da fonte do parágrafo */
+            color: #555;
+            /* Cor do texto */
+        }
 
-/* Estilos de navegação */
-nav {
-    padding: 20px 0;
-    /* Espaçamento em cima e embaixo */
-    text-align: center;
-    /* Centraliza a navegação */
-}
-
-ul {
-    list-style: none;
-    /* Remove os marcadores da lista */
-    padding: 0;
-    /* Remove o preenchimento padrão */
-    margin: 0;
-    /* Remove a margem padrão */
-}
-
-li {
-    display: inline-block;
-    /* Exibe os itens da lista em linha */
-    margin-right: 20px;
-    /* Espaçamento entre os links */
-}
-
-li a {
-    text-decoration: none;
-    /* Remove o sublinhado dos links */
-    color: #ff6600;
-    /* Cor do texto dos links (por exemplo, laranja) */
-    font-size: 20px;
-    /* Tamanho da fonte dos links */
-    transition: color 0.3s;
-    /* Transição suave ao passar o mouse */
-}
-
-li a:hover {
-    color: #ffcc00;
-    /* Cor do texto ao passar o mouse (por exemplo, amarelo) */
-}
-
-/* Estilo do botão */
-.botao {
-    background-
-
-    /* Estilo geral do corpo */
-    body {
-        font-family: 'Arial', sans-serif;
-        margin: 0;
-        padding: 0;
-        height: 2000px;
-        /* Para simular rolagem */
-        background-color: #f7f7f7;
-        /* Cor de fundo cinza claro */
-        color: #333;
-        /* Cor do texto */
-    }
-
-    /* Estilo do cabeçalho */
-    h1 {
-        text-align: center;
-        margin-top: 50px;
-        color: #2c3e50;
-        /* Azul escuro */
-        font-size: 2.5em;
-        /* Tamanho da fonte */
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-        /* Sombra do texto */
-    }
-
-    /* Estilo do parágrafo */
-    p {
-        text-align: center;
-        margin: 20px 0;
-        font-size: 1.2em;
-        /* Tamanho da fonte do parágrafo */
-        color: #555;
-        /* Cor do texto */
-    }
-
-    /* Estilos de navegação */
-    nav {
-        padding: 20px 0;
-        /* Espaçamento em cima e embaixo */
-        text-align: center;
-        /* Centraliza a navegação */
-    }
-
-    ul {
-        list-style: none;
-        /* Remove os marcadores da lista */
-        padding: 0;
-        /* Remove o preenchimento padrão */
-        margin: 0;
-        /* Remove a margem padrão */
-    }
-
-    li {
-        display: inline-block;
-        /* Exibe os itens da lista em linha */
-        margin-right: 20px;
-        /* Espaçamento entre os links */
-    }
-
-    li a {
-        text-decoration: none;
-        /* Remove o sublinhado dos links */
-        color: #ff6600;
-        /* Cor do texto dos links (por exemplo, laranja) */
-        font-size: 20px;
-        /* Tamanho da fonte dos links */
-        transition: color 0.3s;
-        /* Transição suave ao passar o mouse */
-    }
-
-    li a:hover {
-        color: #ffcc00;
-        /* Cor do texto ao passar o mouse (por exemplo, amarelo) */
-    }
-
-    /* Estilo do botão */
-    .botao {
-        background-color: #ff6600;
-        /* Cor de fundo do botão */
-        color: #ffffff;
-        /* Cor do texto do botão */
-        padding: 15px 30px;
-        /* Espaçamento interno */
-        font-size: 18px;
-        /* Tamanho da fonte do botão */
-        border: none;
-        /* Remove bordas padrão */
-        border-radius: 5px;
-        /* Bordas arredondadas */
-        cursor: pointer;
-        /* Indica que é clicável */
-        transition: background-color 0.3s ease, transform 0.2s ease;
-        /* Transições suaves */
-        margin-top: 20px;
-        /* Espaçamento acima do botão */
-    }
-
-    .botao:hover {
-        background-color: #e65c00;
-        /* Cor de fundo ao passar o mouse */
-        transform: scale(1.05);
-        /* Aumenta o botão ligeiramente */
-    }
-
-    .botao:active {
-        transform: scale(0.95);
-        /* Diminui o botão ao clicar */
-    }
-
-    /* Estilo para as imagens centradas */
-    .imgcentro {
-        display: block;
-        /* Para centralizar a imagem */
-        margin: 20px auto;
-        /* Margem em cima e embaixo */
-        max-width: 100%;
-        /* Garante que a imagem não ultrapasse a largura do contêiner */
-        height: auto;
-        /* Mantém a proporção da imagem */
+        /* Estilos de navegação */
+        nav {
+            padding: 20px 0;
+            /* Espaçamento em ci/* Estilo geral do corpo */
 
 
-        color: #ff6600;
-        /* Cor de fundo do botão */
-        color: #ffffff;
-        /* Cor do texto do botão */
-        padding: 15px 30px;
-        /* Espaçamento interno */
-        font-size: 18px;
-        /* Tamanho da fonte do botão */
-        border: none;
-        /* Remove bordas padrão */
-        border-radius: 5px;
-        /* Bordas arredondadas */
-        cursor: pointer;
-        /* Indica que é clicável */
-        transition: background-color 0.3s ease,
-            transform 0.2s ease;
-        /* Transições suaves */
-        margin-top: 20px;
-        /* Espaçamento acima do botão */
-    }
+            /* Estilo do cabeçalho */
+            h1 {
+                text-align: center;
+                margin-top: 50px;
+                color: #2c3e50;
+                /* Azul escuro */
+                font-size: 2.5em;
+                /* Tamanho da fonte */
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+                /* Sombra do texto */
+            }
 
-    .botao:hover {
-        background-color: #e65c00;
-        /* Cor de fundo ao passar o mouse */
-        transform: scale(1.05);
-        /* Aumenta o botão ligeiramente */
-    }
+            /* Estilo do parágrafo */
+            p {
+                text-align: center;
+                margin: 20px 0;
+                font-size: 1.2em;
+                /* Tamanho da fonte do parágrafo */
+                color: #555;
+                /* Cor do texto */
+            }
 
-    .botao:active {
-        transform: scale(0.95);
-        /* Diminui o botão ao clicar */
-    }
+            /* Estilos de navegação */
+            nav {
+                padding: 20px 0;
+                /* Espaçamento em cima e embaixo */
+                text-align: center;
+                /* Centraliza a navegação */
+            }
 
-    /* Estilo para as imagens centradas */
-    .imgcentro {
-        display: block;
-        /* Para centralizar a imagem */
-        margin: 20px auto;
-        /* Margem em cima e embaixo */
-        max-width: 100%;
-        /* Garante que a imagem não ultrapasse a largura do contêiner */
-        height: auto;
-        /* Mantém a proporção da imagem */
-    }
+            ul {
+                list-style: none;
+                /* Remove os marcadores da lista */
+                padding: 0;
+                /* Remove o preenchimento padrão */
+                margin: 0;
+                /* Remove a margem padrão */
+            }
+
+            li {
+                display: inline-block;
+                /* Exibe os itens da lista em linha */
+                margin-right: 20px;
+                /* Espaçamento entre os links */
+            }
+
+            li a {
+                text-decoration: none;
+                /* Remove o sublinhado dos links */
+                color: #ff6600;
+                /* Cor do texto dos links (por exemplo, laranja) */
+                font-size: 20px;
+                /* Tamanho da fonte dos links */
+                transition: color 0.3s;
+                /* Transição suave ao passar o mouse */
+            }
+
+            li a:hover {
+                color: #ffcc00;
+                /* Cor do texto ao passar o mouse (por exemplo, amarelo) */
+            }
+
+            /* Estilo do botão */
+            .botao {
+                background-color: #ff6600;
+                /* Cor de fundo do botão */
+                color: #ffffff;
+                /* Cor do texto do botão */
+                padding: 15px 30px;
+                /* Espaçamento interno */
+                font-size: 18px;
+                /* Tamanho da fonte do botão */
+                border: none;
+                /* Remove bordas padrão */
+                border-radius: 5px;
+                /* Bordas arredondadas */
+                cursor: pointer;
+                /* Indica que é clicável */
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                /* Transições suaves */
+                margin-top: 20px;
+                /* Espaçamento acima do botão */
+            }
+
+            .botao:hover {
+                background-color: #e65c00;
+                /* Cor de fundo ao passar o mouse */
+                transform: scale(1.05);
+                /* Aumenta o botão ligeiramente */
+            }
+
+            .botao:active {
+                transform: scale(0.95);
+                /* Diminui o botão ao clicar */
+            }
+
+            /* Estilo para as imagens centradas */
+            .imgcentro {
+                display: block;
+                /* Para centralizar a imagem */
+                margin: 20px auto;
+                /* Margem em cima e embaixo */
+                max-width: 100%;
+                /* Garante que a imagem não ultrapasse a largura do contêiner */
+                height: auto;
+                /* Mantém a proporção da imagem */
+            }
+
+            ma e embaixo */ text-align: center;
+            /* Centraliza a navegação */
+        }
+
+        ul {
+            list-style: none;
+            /* Remove os marcadores da lista */
+            padding: 0;
+            /* Remove o preenchimento padrão */
+            margin: 0;
+            /* Remove a margem padrão */
+        }
+
+        li {
+            display: inline-block;
+            /* Exibe os itens da lista em linha */
+            margin-right: 20px;
+            /* Espaçamento entre os links */
+        }
+
+        li a {
+            text-decoration: none;
+            /* Remove o sublinhado dos links */
+            color: #ff6600;
+            /* Cor do texto dos links (por exemplo, laranja) */
+            font-size: 20px;
+            /* Tamanho da fonte dos links */
+            transition: color 0.3s;
+            /* Transição suave ao passar o mouse */
+        }
+
+        li a:hover {
+            color: #ffcc00;
+            /* Cor do texto ao passar o mouse (por exemplo, amarelo) */
+        }
+
+        /* Estilo do botão */
+        .botao {
+            background-
+
+            /* Estilo geral do corpo */
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                height: 2000px;
+                /* Para simular rolagem */
+                background-color: #f7f7f7;
+                /* Cor de fundo cinza claro */
+                color: #333;
+                /* Cor do texto */
+            }
+
+            /* Estilo do cabeçalho */
+            h1 {
+                text-align: center;
+                margin-top: 50px;
+                color: #2c3e50;
+                /* Azul escuro */
+                font-size: 2.5em;
+                /* Tamanho da fonte */
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+                /* Sombra do texto */
+            }
+
+            /* Estilo do parágrafo */
+            p {
+                text-align: center;
+                margin: 20px 0;
+                font-size: 1.2em;
+                /* Tamanho da fonte do parágrafo */
+                color: #555;
+                /* Cor do texto */
+            }
+
+            /* Estilos de navegação */
+            nav {
+                padding: 20px 0;
+                /* Espaçamento em cima e embaixo */
+                text-align: center;
+                /* Centraliza a navegação */
+            }
+
+            ul {
+                list-style: none;
+                /* Remove os marcadores da lista */
+                padding: 0;
+                /* Remove o preenchimento padrão */
+                margin: 0;
+                /* Remove a margem padrão */
+            }
+
+            li {
+                display: inline-block;
+                /* Exibe os itens da lista em linha */
+                margin-right: 20px;
+                /* Espaçamento entre os links */
+            }
+
+            li a {
+                text-decoration: none;
+                /* Remove o sublinhado dos links */
+                color: #ff6600;
+                /* Cor do texto dos links (por exemplo, laranja) */
+                font-size: 20px;
+                /* Tamanho da fonte dos links */
+                transition: color 0.3s;
+                /* Transição suave ao passar o mouse */
+            }
+
+            li a:hover {
+                color: #ffcc00;
+                /* Cor do texto ao passar o mouse (por exemplo, amarelo) */
+            }
+
+            /* Estilo do botão */
+            .botao {
+                background-color: #ff6600;
+                /* Cor de fundo do botão */
+                color: #ffffff;
+                /* Cor do texto do botão */
+                padding: 15px 30px;
+                /* Espaçamento interno */
+                font-size: 18px;
+                /* Tamanho da fonte do botão */
+                border: none;
+                /* Remove bordas padrão */
+                border-radius: 5px;
+                /* Bordas arredondadas */
+                cursor: pointer;
+                /* Indica que é clicável */
+                transition: background-color 0.3s ease, transform 0.2s ease;
+                /* Transições suaves */
+                margin-top: 20px;
+                /* Espaçamento acima do botão */
+            }
+
+            .botao:hover {
+                background-color: #e65c00;
+                /* Cor de fundo ao passar o mouse */
+                transform: scale(1.05);
+                /* Aumenta o botão ligeiramente */
+            }
+
+            .botao:active {
+                transform: scale(0.95);
+                /* Diminui o botão ao clicar */
+            }
+
+            /* Estilo para as imagens centradas */
+            .imgcentro {
+                display: block;
+                /* Para centralizar a imagem */
+                margin: 20px auto;
+                /* Margem em cima e embaixo */
+                max-width: 100%;
+                /* Garante que a imagem não ultrapasse a largura do contêiner */
+                height: auto;
+                /* Mantém a proporção da imagem */
+
+
+                color: #ff6600;
+                /* Cor de fundo do botão */
+                color: #ffffff;
+                /* Cor do texto do botão */
+                padding: 15px 30px;
+                /* Espaçamento interno */
+                font-size: 18px;
+                /* Tamanho da fonte do botão */
+                border: none;
+                /* Remove bordas padrão */
+                border-radius: 5px;
+                /* Bordas arredondadas */
+                cursor: pointer;
+                /* Indica que é clicável */
+                transition: background-color 0.3s ease,
+                    transform 0.2s ease;
+                /* Transições suaves */
+                margin-top: 20px;
+                /* Espaçamento acima do botão */
+            }
+
+            .botao:hover {
+                background-color: #e65c00;
+                /* Cor de fundo ao passar o mouse */
+                transform: scale(1.05);
+                /* Aumenta o botão ligeiramente */
+            }
+
+            .botao:active {
+                transform: scale(0.95);
+                /* Diminui o botão ao clicar */
+            }
+
+            /* Estilo para as imagens centradas */
+            .imgcentro {
+                display: block;
+                /* Para centralizar a imagem */
+                margin: 20px auto;
+                /* Margem em cima e embaixo */
+                max-width: 100%;
+                /* Garante que a imagem não ultrapasse a largura do contêiner */
+                height: auto;
+                /* Mantém a proporção da imagem */
+            }
