@@ -2,18 +2,16 @@ body {
     background-color: whitesmoke ;
 }
 
-.cabecalho{
-    background-color: black;
-    color: whitesmoke;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.cabecalho {
+    background-color: blue; 
+    color: white;
+    padding: 30px 20px; 
     font-size: 25px;
-    padding: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 30%;
 }
+
 
 #titulo {
     font-size: 30px;
