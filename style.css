@@ -25,35 +25,30 @@ p {
     color: #555; /* Cor do texto */
 }
 
-/* Estilo do botão "Voltar ao Topo" */
-#topButton {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    display: none; /* Esconde o botão inicialmente */
-    background-color: #007BFF; /* Azul claro */
-    color: white;
-    border: none;
-    padding: 15px 20px;
-    border-radius: 8px; /* Cantos arredondados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra do botão */
-    font-size: 16px; /* Tamanho da fonte */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+nav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
 }
 
-/* Efeito ao passar o mouse sobre o botão */
-#topButton:hover {
-    background-color: #0056b3; /* Azul escuro */
-    transform: scale(1.05); /* Aumenta o botão */
+ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove a margem padrão */
 }
 
-/* Estilo responsivo */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2em; /* Tamanho reduzido em telas pequenas */
-    }
-    
-    #topButton {
-        padding: 10px 15px; /* Reduz o padding em telas pequenas */
-    }
+li {
+    display: inline-block; /* Exibe os itens da lista em linha */
+    margin-right: 20px; /* Espaçamento entre os links */
+}
+
+li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #ff6600; /* Cor do texto dos links (por exemplo, laranja) */
+    font-size: 20px; /* Tamanho da fonte dos links */
+    transition: color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+li a:hover {
+    color: #ffcc00; /* Cor do texto ao passar o mouse (por exemplo, amarelo) */
 }
