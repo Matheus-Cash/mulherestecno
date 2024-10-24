@@ -1,5 +1,7 @@
 body {  
     background-color: whitesmoke; 
+    font-family: Verdana;
+    font-size: 16px;
 }
 
 .cabecalho {
@@ -15,10 +17,6 @@ body {
 #titulo {
     font-size: 30px; 
     text-align: center; 
-}
-
-p {
-
 }
 
 .imgcentro {
