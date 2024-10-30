@@ -91,6 +91,13 @@ footer{
     display: flex;
     justify-content: center;
 }
+.container{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura da tela */
+    background-color: #f0f0f0; /* Fundo para visualização */
+}
 
 .meu-botao{
     background-color: #ff6600; /* Cor de fundo do botão */
@@ -104,6 +111,7 @@ footer{
     margin-top: 20px; /* Espaçamento acima do botão */
     width: 150px;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 
