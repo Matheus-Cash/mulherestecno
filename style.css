@@ -88,8 +88,11 @@ li a:hover {
 }
 
 .meu-botao:active {
-    transform: scale(0.95);
-    /* Diminui o botão ao clicar */
+    transform: scale(0.95);    /* Diminui o botão ao clicar */
+    width: 150px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .meu-botao{
