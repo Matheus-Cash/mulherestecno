@@ -104,7 +104,7 @@ li a:hover {
     /* Diminui o botão ao clicar */
 }
 
-.meu-botao {
+.meu-botao{
     background-color: #ff6600; /* Cor de fundo do botão */
     color: #ffcc00; /* Cor do texto do botão */
     padding: 15px 30px; /* Espaçamento interno */
