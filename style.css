@@ -1,11 +1,11 @@
 /* Cor do texto */
 /* Estilo do cabeçalho */
 header {
-    background-color: #2c3e50;
+    background-color: #e65c00;
     /* Cor de fundo do cabeçalho (azul escuro) */
     color: #ffffff;
     /* Cor do texto no cabeçalho */
-    padding: 20px;
+    padding: 10px;
     /* Espaçamento interno */
     text-align: center;
 }
@@ -27,8 +27,9 @@ body {
 h1 {
     text-align: center;
     margin-top: 80px;
-    background-color: #e65c00;
+    background-color: #ffcc00;
     color: white;
+    padding: 20px;
     /* Azul escuro */
     font-size: 2.5em;
     /* Tamanho da fonte */
