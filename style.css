@@ -87,6 +87,11 @@ li a:hover {
     width: 20%;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+}
+
 .meu-botao{
     background-color: #ff6600; /* Cor de fundo do botão */
     color: #ffcc00; /* Cor do texto do botão */
