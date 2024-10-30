@@ -87,27 +87,28 @@ li a:hover {
     width: 20%;
 }
 
-.meu-botao:active {
-    transform: scale(0.95);    /* Diminui o botão ao clicar */
-    width: 150px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
 .meu-botao{
     background-color: #ff6600; /* Cor de fundo do botão */
     color: #ffcc00; /* Cor do texto do botão */
     padding: 15px 30px; /* Espaçamento interno */
-    font-size: 30px; /* Tamanho da fonte do botão */
+    font-size: 20px; /* Tamanho da fonte do botão */
     border: none; /* Remove bordas padrão */
     border-radius: 5px; /* Bordas arredondadas */
     cursor: pointer; /* Indica que é clicável */
     transition: background-color 0.3s ease, transform 0.2s ease; /* Transições suaves */
     margin-top: 20px; /* Espaçamento acima do botão */
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .meu-botao:hover {
     background-color: #e65c00; /* Cor ao passar o mouse */
     transform: scale(1.05); /* Aumenta um pouco o botão */
 }
+
+.meu-botao:active {
+    transform: scale(0.95);    /* Diminui o botão ao clicar */
+}
+
+
