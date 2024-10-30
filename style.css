@@ -84,6 +84,7 @@ li a:hover {
     /* Garante que a imagem não ultrapasse a largura do contêiner */
     height: auto;
     /* Mantém a proporção da imagem */
+    width: 30%;
 }
 
 .meu-botao:active {
