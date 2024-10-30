@@ -27,7 +27,8 @@ body {
 h1 {
     text-align: center;
     margin-top: 50px;
-    color: #2c3e50;
+    background-color: #e65c00;
+    color: white;
     /* Azul escuro */
     font-size: 2.5em;
     /* Tamanho da fonte */
