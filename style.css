@@ -1,12 +1,9 @@
 /* Cor do texto */
 /* Estilo do cabeçalho */
 header {
-    background-color: #e65c00;
-    /* Cor de fundo do cabeçalho (azul escuro) */
-    color: #ffffff;
-    /* Cor do texto no cabeçalho */
-    padding: 10px;
-    /* Espaçamento interno */
+    background-color: #e65c00;     /* Cor de fundo do cabeçalho (azul escuro) */
+    color: #ffffff;    /* Cor do texto no cabeçalho */
+    padding: 10px;    /* Espaçamento interno */
     text-align: center;
 }
 
@@ -15,12 +12,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    height: 2000px;
-    /* Para simular rolagem */
-    background-color: #f7f7f7;
-    /* Cor de fundo cinza claro */
-    color: #333;
-    /* Cor do texto */
+    height: 2000px;    /* Para simular rolagem */
+    background-color: #f7f7f7;    /* Cor de fundo cinza claro */
+    color: #333;    /* Cor do texto */
 }
 
 /* Estilo do cabeçalho */
@@ -29,30 +23,23 @@ h1 {
     margin-top: 80px;
     background-color: #ffcc00;
     color: white;
-    padding: 20px;
-    /* Azul escuro */
-    font-size: 2.5em;
-    /* Tamanho da fonte */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    /* Sombra do texto */
+    padding: 20px;    /* Azul escuro */
+    font-size: 2.5em;   /* Tamanho da fonte */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);   /* Sombra do texto */
 }
 
 /* Estilo do parágrafo */
 p {
     text-align: center;
     margin: 20px 0;
-    font-size: 1.2em;
-    /* Tamanho da fonte do parágrafo */
-    color: #555;
-    /* Cor do texto */
+    font-size: 1.2em;    /* Tamanho da fonte do parágrafo */
+    color: #555;    /* Cor do texto */
 }
 
 /* Estilos de navegação */
 nav {
-    padding: 20px 0;
-    /* Espaçamento em cima e embaixo */
-    text-align: center;
-    /* Centraliza a navegação */
+    padding: 20px 0;    /* Espaçamento em cima e embaixo */
+    text-align: center;    /* Centraliza a navegação */
 }
 
 ul {
