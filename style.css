@@ -101,6 +101,7 @@ li a:hover {
     /* Remove bordas padrão */
     border-radius: 5px;
     /* Bordas arredondadas */
+    border-bottom: #ffcc00;
     cursor: pointer;
     /* Indica que é clicável */
     transition: background-color 0.3s ease, transform 0.2s ease;
